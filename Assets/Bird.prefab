@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5076076507835393950
 Transform:
   m_ObjectHideFlags: 0
@@ -144,6 +144,7 @@ MonoBehaviour:
   bird: {fileID: 5076076507835393947}
   getReady: {fileID: 0}
   tap: {fileID: 0}
+  playfabManager: {fileID: 0}
 --- !u!70 &5076076507835393949
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

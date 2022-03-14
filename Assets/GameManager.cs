@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
-
+    
     public GameObject gameOverCanvas;
     public GameObject scoreCanvas;
     public GameObject silverCoin;
     public GameObject goldCoin;
+    
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -31,6 +33,8 @@ public class GameManager : MonoBehaviour
         scoreCanvas.SetActive(false);
         Time.timeScale = 0;
         FlyLittleBird.playSound("hit");
+        
+
     }
     public void Replay()
     {

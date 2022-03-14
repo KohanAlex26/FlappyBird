@@ -53,3 +53,6 @@ TagManager:
   - name: Menu
     uniqueID: 985280031
     locked: 0
+  - name: Leaderboard
+    uniqueID: 3299968431
+    locked: 0

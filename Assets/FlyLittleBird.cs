@@ -14,6 +14,9 @@ public class FlyLittleBird : MonoBehaviour
     public GameObject bird;
     public GameObject getReady;
     public GameObject tap;
+    public PlayfabManager playfabManager;
+
+
     // Start is called before the first frame update
     public static void playSound(string clip)
     {
@@ -54,6 +57,7 @@ public class FlyLittleBird : MonoBehaviour
             tap.SetActive(false);
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.velocity = Vector2.up * velocity;
+            if(Time.timeScale == 1)
             audioSrc.PlayOneShot(wingSound);
             pipeSpawner.SetActive(true);
             Ground.gameObject.GetComponent<Animator>().enabled = true;
@@ -64,5 +68,7 @@ public class FlyLittleBird : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         gameManager.GameOver();
+        playfabManager.SendLeaderboard(Score.score);
     }
+
 }
