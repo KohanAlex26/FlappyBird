@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 111
+  controlID: 87
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 91
+  controlID: 88
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 92
+  controlID: 89
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -479,20 +479,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\I7\Desktop\FlappyBird\GoodFlappyBird
+  m_LastProjectPath: C:\Users\I7\Desktop\Semestru2\GameDev\Labs\2D_Game\GoodFlappyBird
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 136}
-    m_SelectedIDs: 440d0000
-    m_LastClickedID: 3396
-    m_ExpandedIDs: 000000006c0b00008e0b00009a0b0000c20b0000060c00001a0c00002a0c0000760c00006a0d0000a40d000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 6e0b0000
+    m_LastClickedID: 2926
+    m_ExpandedIDs: 000000006e0b0000900b00009c0b0000c80b00000c0c0000200c0000300c00007e0c0000720d0000ae0d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,7 +520,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006c0b00008e0b00009a0b0000c20b0000060c00001a0c00002a0c0000760c00006a0d0000a40d0000
+    m_ExpandedIDs: 000000006e0b0000900b00009c0b0000c80b00000c0c0000200c0000300c00007e0c0000720d0000ae0d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300004a4a0000de0d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -639,9 +639,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a00d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ce00ffff9c29ffffb629ffffd439ffff743affff3e5cffff565cffffaa6effffc86fffffe26fffff5275ffff347cffffb481ffffac83ffffb88effffd48effffee92ffff0693fffff893ffffb4a0ffffcea0ffffe4c5ffff36c6ffff4ac6fffff6c9ffff84ccffff94d0ffffe4d0ffff5ad6ffff72d6ffff6ee9ffffaeeaffff9ef4fffff4f4ffff70f5ffffc8f5ffffd4f6ffff2af7ffff44f7ffffdcfbfffff0380000c0440000e8440000ee440000b046000022560000885900009e590000b0590000b6590000f45e00000a5f00001c5f0000225f00002c60000098610000c66100009e620000ba790000f679000094800000d0800000f6850000328600004694000078940000e2b000005cb1000092b10000d0b10000
+      m_ExpandedIDs: dcfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
