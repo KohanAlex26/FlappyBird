@@ -53,17 +53,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AddScore.cs" />
-     <Compile Include="Assets\DisplayHighScore.cs" />
-     <Compile Include="Assets\DisplayScore.cs" />
-     <Compile Include="Assets\DontDestroy.cs" />
-     <Compile Include="Assets\FlyLittleBird.cs" />
-     <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\MainMenu.cs" />
-     <Compile Include="Assets\Move.cs" />
-     <Compile Include="Assets\PipeSpawner.cs" />
-     <Compile Include="Assets\PlayfabManager.cs" />
-     <Compile Include="Assets\Score.cs" />
+     <Compile Include="Assets\Scripts\AddScore.cs" />
+     <Compile Include="Assets\Scripts\DisplayHighScore.cs" />
+     <Compile Include="Assets\Scripts\DisplayScore.cs" />
+     <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\FlyLittleBird.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\PipeSpawner.cs" />
+     <Compile Include="Assets\Scripts\PlayfabManager.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
