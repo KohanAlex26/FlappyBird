@@ -11,3 +11,7 @@ I always wanted to choose the bird and the atmosphere so I addead a feauture for
 This is how the game should run.
 
 ![](Img/play.gif)
+
+Depending on what device you are logged on to, the leaderboard saves your high score.
+
+![](Img/leaderboard.gif)
